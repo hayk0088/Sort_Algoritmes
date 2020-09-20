@@ -1,0 +1,8 @@
+def selection_sort(list):
+    for x in range(len(list)-1):
+        min = x          
+        for i in range(x+1,len(list)): 
+            if list[i] < list[min]:
+                min = i
+        list[x],list[min]=list[min],list[x]
+    return(list)
