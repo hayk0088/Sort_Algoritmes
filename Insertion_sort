@@ -3,4 +3,4 @@ def insertion_sort(list):
         while list[i] < list[i-1] and i != 0:
             list[i-1],list[i]=list[i],list[i-1]
             i -= 1
-    return listi != 0:
+    return list
